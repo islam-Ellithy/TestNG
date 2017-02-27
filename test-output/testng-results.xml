@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80" started-at="2017-02-27T19:22:02Z" finished-at="2017-02-27T19:22:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80" started-at="2017-02-27T19:22:02Z" finished-at="2017-02-27T19:22:02Z">
+      <class name="CalculatorTest">
+        <test-method status="PASS" signature="Add(int, int, int)[pri:0, instance:CalculatorTest@402f32ff]" name="Add" duration-ms="11" started-at="2017-02-27T21:22:02Z" data-provider="addTest" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method status="PASS" signature="Add(int, int, int)[pri:0, instance:CalculatorTest@402f32ff]" name="Add" duration-ms="1" started-at="2017-02-27T21:22:02Z" data-provider="addTest" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method status="PASS" signature="Add(int, int, int)[pri:0, instance:CalculatorTest@402f32ff]" name="Add" duration-ms="1" started-at="2017-02-27T21:22:02Z" data-provider="addTest" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method status="PASS" signature="Add(int, int, int)[pri:0, instance:CalculatorTest@402f32ff]" name="Add" duration-ms="3" started-at="2017-02-27T21:22:02Z" data-provider="addTest" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method status="PASS" signature="Divide()[pri:0, instance:CalculatorTest@402f32ff]" name="Divide" duration-ms="3" started-at="2017-02-27T21:22:02Z" finished-at="2017-02-27T21:22:02Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at Calculator.Divide(Calculator.java:19)
+	at CalculatorTest.Divide(CalculatorTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Divide -->
+        <test-method status="PASS" signature="IsPrime(boolean, int)[pri:0, instance:CalculatorTest@402f32ff]" name="IsPrime" duration-ms="2" started-at="2017-02-27T21:22:02Z" data-provider="isprimeNums" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPrime -->
+        <test-method status="PASS" signature="IsPrime(boolean, int)[pri:0, instance:CalculatorTest@402f32ff]" name="IsPrime" duration-ms="1" started-at="2017-02-27T21:22:02Z" data-provider="isprimeNums" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPrime -->
+        <test-method status="PASS" signature="IsPrime(boolean, int)[pri:0, instance:CalculatorTest@402f32ff]" name="IsPrime" duration-ms="1" started-at="2017-02-27T21:22:02Z" data-provider="isprimeNums" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPrime -->
+        <test-method status="PASS" signature="IsPrime(boolean, int)[pri:0, instance:CalculatorTest@402f32ff]" name="IsPrime" duration-ms="1" started-at="2017-02-27T21:22:02Z" data-provider="isprimeNums" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPrime -->
+        <test-method status="PASS" signature="IsPrime(boolean, int)[pri:0, instance:CalculatorTest@402f32ff]" name="IsPrime" duration-ms="2" started-at="2017-02-27T21:22:02Z" data-provider="isprimeNums" finished-at="2017-02-27T21:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPrime -->
+        <test-method status="PASS" signature="Subtract()[pri:0, instance:CalculatorTest@402f32ff]" name="Subtract" duration-ms="1" started-at="2017-02-27T21:22:02Z" finished-at="2017-02-27T21:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subtract -->
+        <test-method status="PASS" signature="Multiplication()[pri:1, instance:CalculatorTest@402f32ff]" name="Multiplication" duration-ms="1" started-at="2017-02-27T21:22:02Z" finished-at="2017-02-27T21:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+      </class> <!-- CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
